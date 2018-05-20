@@ -1,0 +1,128 @@
+{
+    "abi": [
+        {
+            "constant": false,
+            "inputs": [],
+            "name": "purchaseTokens",
+            "outputs": [],
+            "payable": true,
+            "stateMutability": "payable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "pizzas",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "winner",
+                    "type": "address"
+                }
+            ],
+            "name": "awardWinner",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "name": "tokenBalances",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "isPizzaHot",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "name": "playingStatus",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_isPizzaHot",
+                    "type": "bool"
+                }
+            ],
+            "name": "setIsPizzaHot",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [],
+            "name": "playGame",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "name": "_pizzas",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        }
+    ],
+    "bytecode": "608060405234801561001057600080fd5b50604051602080610332833981016040525160005560018054610100330261010060a860020a03199091161790556102e58061004d6000396000f30060806040526004361061008d5763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416633290ce2981146100925780633421584c1461009c578063409ca41f146100c3578063523fba7f146100f157806354cf2b3b1461011f57806384231682146101485780638b670ca114610176578063af89973514610190575b600080fd5b61009a6101a5565b005b3480156100a857600080fd5b506100b16101bc565b60408051918252519081900360200190f35b3480156100cf57600080fd5b5061009a73ffffffffffffffffffffffffffffffffffffffff600435166101c2565b3480156100fd57600080fd5b506100b173ffffffffffffffffffffffffffffffffffffffff6004351661022e565b34801561012b57600080fd5b50610134610240565b604080519115158252519081900360200190f35b34801561015457600080fd5b5061013473ffffffffffffffffffffffffffffffffffffffff60043516610249565b34801561018257600080fd5b5061009a600435151561025e565b34801561019c57600080fd5b5061009a610271565b336000908152600260205260409020805434019055565b60005481565b600154610100900473ffffffffffffffffffffffffffffffffffffffff1633146101eb57600080fd5b60405173ffffffffffffffffffffffffffffffffffffffff82169060009060019082818181858883f1935050505015801561022a573d6000803e3d6000fd5b5050565b60026020526000908152604090205481565b60015460ff1681565b60036020526000908152604090205460ff1681565b6001805460ff1916911515919091179055565b336000908152600260205260408120541161028b57600080fd5b336000908152600260209081526040808320805460001901905560039091529020805460ff191660011790555600a165627a7a72305820780a877f6b3fa82420b3193f12ff096ff91d33186e049fc20e9f72404e13a6610029"
+}
