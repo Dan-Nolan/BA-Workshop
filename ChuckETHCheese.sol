@@ -22,7 +22,7 @@ contract ChuckETHCheese {
     }
 
     function playGame() public {
-        require(tokenBalances[msg.sender] > 0);
+        require(tokenBalances[msg.sender] >= 1);
         tokenBalances[msg.sender] -= 1;
         playingStatus[msg.sender] = true;
     }
