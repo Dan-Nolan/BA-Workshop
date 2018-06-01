@@ -7,10 +7,11 @@ Instead it makes use of [gulpjs](https://gulpjs.com/) as a simple build system a
 [solc-js](https://github.com/ethereum/solc-js), [mochajs](https://mochajs.org/) and 
 [web3-js](https://github.com/ethereum/web3.js/) to run tests in (...you guessed it!) JavaScript. 
 
-## Interactive Codecast
+## Videos
 
-If you're looking for an interactive walkthrough of this material, check out this Codecast:
-https://www.codecast.app/interaction/5b1027bf4026dd001f48974b
+If you're looking for an interactive walkthrough of this material, check it out on [Codecast](https://www.codecast.app/interaction/5b1027bf4026dd001f48974b).
+
+If you'd like to see the original talk that went along with this repo it's available on [YouTube](https://www.youtube.com/watch?v=kbUuGZz3NIk&feature=youtu.be).
 
 ## Running this Code Locally
 
